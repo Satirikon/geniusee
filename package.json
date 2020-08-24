@@ -1,0 +1,22 @@
+{
+  "name": "geniusee",
+  "version": "1.0.0",
+  "description": "Fresno State Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio",
+    "report": "allure serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^6.3.6",
+    "@wdio/cli": "^6.4.0",
+    "@wdio/jasmine-framework": "^6.4.0",
+    "@wdio/local-runner": "^6.4.0",
+    "@wdio/spec-reporter": "^6.4.0",
+    "@wdio/sync": "^6.4.0",
+    "chromedriver": "^84.0.1",
+    "wdio-chromedriver-service": "^6.0.3"
+  }
+}
